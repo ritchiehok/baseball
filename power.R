@@ -16,8 +16,3 @@ power <- function(years, players = 50) {
     ordpower <- power[order(power[,"2B"], decreasing = TRUE),]
     head(ordpower, players)
 }
-
-## ratio of doubles, ratio of homeruns
-## subsetting player data
-## data[data$playerID == "name",]
-## peak_power
